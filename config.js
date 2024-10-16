@@ -21,12 +21,12 @@ for (let i = 0; i < ownerlist.length; i += 2) {
     global.owner.push(owner);
 }
 
-//global.pairingNumber = "92xxx_number" //put your bot number here
+//global.pairingNumber = "917305378115" //put your bot number here
 global.botNumber = '923051391007' //put your bot number here
 
-global.mods = ['923444844060', '923051391007']
-global.prems = ['923444844060', '923051391007']
-global.allowed = ['923444844060', '923051391007']
+global.mods = ['919207278115', '919207278115']
+global.prems = ['919207278115', '919207278115']
+global.allowed = ['919207278115', '919207278115']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
