@@ -1,10 +1,10 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://cdn.jsdelivr.net/gh/GlobalTechInfo/ULTRA-MD@main/assets/qasim2.mp3'
+  var vn = 'https://i.imgur.com/0xdWrPH.mp4'
   let url = 'https://github.com/GlobalTechInfo/ULTRA-MD'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
-  let img = 'https://i.ibb.co/9HY4wjz/a4c0b1af253197d4837ff6760d5b81c0.jpg'
+  let img = 'https://i.imgur.com/57Szrxs.jpeg'
   let con = {
     key: {
       fromMe: false,
@@ -30,7 +30,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: '𝙂𝙇𝙊𝘽𝘼𝙇 𝙈𝘿 𝙄𝙎 𝘼𝙇𝙄𝙑𝙀',
+        title: 'AVUS BOT ALIVE',
         body: '© GlobalTechInfo',
         thumbnailUrl: img,
         sourceUrl: 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
