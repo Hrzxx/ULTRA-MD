@@ -6,12 +6,12 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "923444844060"
+const ownervb = process.env.OWNERS || "919207278115"
 
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [JUNAID];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -22,7 +22,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 }
 
 //global.pairingNumber = "917305378115" //put your bot number here
-global.botNumber = '923051391007' //put your bot number here
+global.botNumber = '917305378115' //put your bot number here
 
 global.mods = ['919207278115', '919207278115']
 global.prems = ['919207278115', '919207278115']
@@ -75,15 +75,15 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = 'GLOBAL BOT'
-global.author = 'GlobalTechInfo'
-global.menuvid = ''
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
+global.packname = 'GLOBAL'
+global.author = 'AVUS-MD'
+global.menuvid = 'https://i.imgur.com/l717SdR.mp4'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/j_.un_aid._?igsh=MTJyOTh3cnpjeXgxaw=='
 global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
 global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
 global.fgyt = 'https://youtube.com/@GlobalTechInfo'
 global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
-global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
+global.fglog = 'https://i.imgur.com/57Szrxs.jpeg'
 global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
 global.wait = '⏳'
